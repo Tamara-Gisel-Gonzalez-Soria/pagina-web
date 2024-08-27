@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes Sociales</title>
+    <!-- Incluir Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(45deg, #ff6b6b, #ffcc5c, #4ecdc4, #556270);
+            background-size: 300% 300%;
+            animation: gradient 10s ease infinite;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+            max-width: 400px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+            letter-spacing: 1.5px;
+            text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .social-image {
+            width: 350px; /* Ajusta el tamaño aquí */
+            margin-bottom: 20px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 25px;
+            font-size: 1.5rem;
+            color: white;
+            text-decoration: none;
+            background-color: #2d57a5;
+            border-radius: 10px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .social-links a:hover {
+            transform: translateY(-5px);
+            background-color: #346dbf;
+        }
+
+        .social-links a i {
+            margin-right: 10px; /* Espacio entre el ícono y el texto */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sígueme en Mis Redes Sociales</h1>
+        <img src="https://i.pinimg.com/originals/ea/d4/bf/ead4bf4e9d19d81b9c4181d40ee7db88.png" alt="Icono" class="social-image">
+        <div class="social-links">
+            <a href="https://www.facebook.com/Tamy.Gonz.Sor?locale=es_LA" target="_blank">
+                <i class="fab fa-facebook"></i> Facebook
+            </a>
+            <a href="https://www.instagram.com/tamy.gonz/" target="_blank">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://discord.gg/Y2Cc2h2B" target="_blank">
+                <i class="fab fa-discord"></i> Discord
+            </a>
+            <a href="https://www.tiktok.com/@tamy_gonzalez?lang=es" target="_blank">
+                <i class="fab fa-tiktok"></i> TikTok
+            </a>
+            <a href="https://www.twitch.tv/t4mmygonz" target="_blank">
+                <i class="fab fa-twitch"></i> Twitch
+            </a>
+        </div>
+    </div>
+</body>
+</html>
